@@ -1,7 +1,7 @@
 {
   "name": "sync-file",
-  "version": "1.0.1",
-  "description": "sync copy you files",
+  "version": "1.0.2",
+  "description": "CLI tools: sync files from A to B",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/pea3nut/sync-file#readme",
   "dependencies": {
+    "chokidar": "^1.7.0",
     "fs-extra": "^4.0.1"
   }
 }
