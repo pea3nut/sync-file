@@ -1,0 +1,29 @@
+{
+  "name": "sync-file",
+  "version": "1.0.1",
+  "description": "sync copy you files",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pea3nut/sync-file.git"
+  },
+  "keywords": [
+    "copy",
+    "sync",
+    "file"
+  ],
+  "bin": {
+    "sync-file": "./bin/sync-file.js"
+  },
+  "author": "pea3nut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pea3nut/sync-file/issues"
+  },
+  "homepage": "https://github.com/pea3nut/sync-file#readme",
+  "dependencies": {
+    "fs-extra": "^4.0.1"
+  }
+}
